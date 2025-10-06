@@ -1,0 +1,102 @@
+[2025-10-06 22:22:32] [[33mWARNING[0m]: 读取签名文件失败: open sig.bin: The system cannot find the file specified.
+[2025-10-06 22:22:32] [[32mINFO[0m]: Lgr -> 预加载LLM
+[2025-10-06 22:22:32] [[32mINFO[0m]: Lgr -> 预加载login
+[2025-10-06 22:22:32] [[32mINFO[0m]: Lgr -> 本地不存在login缓存文件跳过
+[2025-10-06 22:22:32] [[32mINFO[0m]: Lgr -> Login定时任务已启动
+[2025-10-06 22:22:32] [[32mINFO[0m]: Lgr -> 预加载check_session
+[2025-10-06 22:22:32] [[32mINFO[0m]: Lgr -> 预加载DB
+[2025-10-06 22:22:32] [[32mINFO[0m]: 尝试使用 快速登录 登录
+[2025-10-06 22:22:32] [[33mWARNING[0m]: 第 1 次尝试失败: no login cache，3s 后重试
+[2025-10-06 22:25:18] [[33mWARNING[0m]: 读取签名文件失败: open sig.bin: The system cannot find the file specified.
+[2025-10-06 22:25:18] [[32mINFO[0m]: Lgr -> 预加载LLM
+[2025-10-06 22:25:18] [[32mINFO[0m]: Lgr -> 预加载login
+[2025-10-06 22:25:18] [[32mINFO[0m]: Lgr -> 本地不存在login缓存文件跳过
+[2025-10-06 22:25:18] [[32mINFO[0m]: Lgr -> Login定时任务已启动
+[2025-10-06 22:25:18] [[32mINFO[0m]: Lgr -> 预加载check_session
+[2025-10-06 22:25:18] [[32mINFO[0m]: Lgr -> 预加载DB
+[2025-10-06 22:25:18] [[32mINFO[0m]: 尝试使用 快速登录 登录
+[2025-10-06 22:25:18] [[33mWARNING[0m]: 第 1 次尝试失败: no login cache，3s 后重试
+[2025-10-06 22:25:21] [[33mWARNING[0m]: 第 2 次尝试失败: no login cache，3s 后重试
+[2025-10-06 22:25:24] [[33mWARNING[0m]: 使用 快速登录 登录失败: no login cache
+[2025-10-06 22:25:24] [[32mINFO[0m]: 尝试使用 二维码登录 登录
+[2025-10-06 22:25:24] [[32mINFO[0m]: connect to server: 198.18.0.89:8080
+[2025-10-06 22:25:24] [[34mDEBUG[0m]: [sign.(*Client).Sign] signed for [wtlogin.trans_emp:1](345ms)
+[2025-10-06 22:25:24] [[34mDEBUG[0m]: [client.(*QQClient).netLoop] rev pkt: wtlogin.trans_emp seq: 1
+[2025-10-06 22:25:27] [[34mDEBUG[0m]: [client.(*QQClient).GetQRCodeResult] get qrcode result
+[2025-10-06 22:25:28] [[34mDEBUG[0m]: [sign.(*Client).Sign] signed for [wtlogin.trans_emp:2](365ms)
+[2025-10-06 22:25:28] [[34mDEBUG[0m]: [client.(*QQClient).netLoop] rev pkt: wtlogin.trans_emp seq: 2
+[2025-10-06 22:25:30] [[34mDEBUG[0m]: [client.(*QQClient).GetQRCodeResult] get qrcode result
+[2025-10-06 22:25:31] [[34mDEBUG[0m]: [sign.(*Client).Sign] signed for [wtlogin.trans_emp:3](361ms)
+[2025-10-06 22:25:31] [[34mDEBUG[0m]: [client.(*QQClient).netLoop] rev pkt: wtlogin.trans_emp seq: 3
+[2025-10-06 22:25:33] [[34mDEBUG[0m]: [client.(*QQClient).GetQRCodeResult] get qrcode result
+[2025-10-06 22:25:34] [[34mDEBUG[0m]: [sign.(*Client).Sign] signed for [wtlogin.trans_emp:4](346ms)
+[2025-10-06 22:25:34] [[34mDEBUG[0m]: [client.(*QQClient).netLoop] rev pkt: wtlogin.trans_emp seq: 4
+[2025-10-06 22:25:36] [[34mDEBUG[0m]: [client.(*QQClient).GetQRCodeResult] get qrcode result
+[2025-10-06 22:25:37] [[34mDEBUG[0m]: [sign.(*Client).Sign] signed for [wtlogin.trans_emp:5](350ms)
+[2025-10-06 22:25:37] [[34mDEBUG[0m]: [client.(*QQClient).netLoop] rev pkt: wtlogin.trans_emp seq: 5
+[2025-10-06 22:25:37] [[34mDEBUG[0m]: [client.(*QQClient).GetQRCodeResult] len(c.t106) =176len(c.t16a) =88
+[2025-10-06 22:25:37] [[34mDEBUG[0m]: [client.(*QQClient).GetQRCodeResult] len(c.transport.Sig.Tgtgt) =16
+[2025-10-06 22:25:37] [[34mDEBUG[0m]: [sign.(*Client).Sign] signed for [wtlogin.login:6](359ms)
+[2025-10-06 22:25:37] [[34mDEBUG[0m]: [client.(*QQClient).netLoop] rev pkt: wtlogin.login seq: 6
+[2025-10-06 22:25:37] [[34mDEBUG[0m]: [client.(*QQClient).decodeLoginResponse] tlv11a data: 0000000006e998bfe8bf99
+[2025-10-06 22:25:37] [[34mDEBUG[0m]: [client.(*QQClient).decodeLoginResponse] SigInfo got
+[2025-10-06 22:25:37] [[34mDEBUG[0m]: [client.(*QQClient).netLoop] rev pkt: trpc.qq_new_tech.status_svc.StatusService.Register seq: 7
+[2025-10-06 22:25:37] [[32mINFO[0m]: 使用 二维码登录 登录成功
+[2025-10-06 22:25:37] [[32mINFO[0m]: 连接已建立
+[2025-10-06 22:25:37] [[32mINFO[0m]: 自定义逻辑注册完成
+[2025-10-06 22:25:39] [[34mDEBUG[0m]: [client.(*QQClient).netLoop] rev pkt: ConfigPushSvc.PushReq seq: -1526593341
+[2025-10-06 22:25:39] [[34mDEBUG[0m]: [client.(*QQClient).netLoop.func2] Unhandled Command: ConfigPushSvc.PushReq
+Seq: 2768373955
+This message can be ignored.
+[2025-10-06 22:25:41] [[34mDEBUG[0m]: [client.(*QQClient).netLoop] rev pkt: trpc.msg.olpush.OlPushService.MsgPush seq: -1219841560
+[2025-10-06 22:25:41] [[34mDEBUG[0m]: [client.decodeOlPushServicePacket] unknown subtype 8 of type 0x210, proto data: 0a2a0a18755f2d5042737769706c4b2d374a37626d61514c412d6d4110f1a18fc70648005800a00100a80100
+[2025-10-06 22:25:45] [[34mDEBUG[0m]: [client.(*QQClient).netLoop] rev pkt: StatSvc.SvcReqMSFLoginNotify seq: -565852917
+[2025-10-06 22:25:45] [[34mDEBUG[0m]: [client.(*QQClient).netLoop.func2] Unhandled Command: StatSvc.SvcReqMSFLoginNotify
+Seq: 3729114379
+This message can be ignored.
+[2025-10-06 22:25:45] [[34mDEBUG[0m]: [client.(*QQClient).netLoop] rev pkt: StatSvc.SvcReqMSFLoginNotify seq: -565852916
+[2025-10-06 22:25:45] [[34mDEBUG[0m]: [client.(*QQClient).netLoop] rev pkt: trpc.msg.olpush.OlPushService.MsgPush seq: -1203162346
+[2025-10-06 22:25:45] [[34mDEBUG[0m]: [client.(*QQClient).netLoop.func2] Unhandled Command: StatSvc.SvcReqMSFLoginNotify
+Seq: 3729114380
+This message can be ignored.
+[2025-10-06 22:25:45] [[34mDEBUG[0m]: [client.(*QQClient).netLoop] rev pkt: trpc.msg.olpush.OlPushService.MsgPush seq: -1803469762
+[2025-10-06 22:25:45] [[34mDEBUG[0m]: [client.decodeOlPushServicePacket] unknown subtype 349 of type 0x210, proto data: 08e90710ce939b80021887820420022a5f08e9071096859b800218828e0520012a114c616772616e67652d43344430333842343220e447a5e2fb4e057e25053b03d95aedc844fa8e181d08ad0d4ee8edf0f17baa42380140cfacf8fa054a0e636f6d2e74656e63656e742e71715887083803406d
+[2025-10-06 22:25:45] [[34mDEBUG[0m]: [client.decodeOlPushServicePacket] unknown subtype 349 of type 0x210, proto data: 08e90710ce939b80021887820420022a5f08e9071096859b800218828e0520012a114c616772616e67652d43344430333842343220e447a5e2fb4e057e25053b03d95aedc844fa8e181d08ad0d4ee8edf0f17baa42380140cfacf8fa054a0e636f6d2e74656e63656e742e71715887083803406d
+[2025-10-06 22:25:45] [[34mDEBUG[0m]: [client.(*QQClient).netLoop] rev pkt: StatSvc.SvcReqMSFLoginNotify seq: -435989283
+[2025-10-06 22:25:45] [[34mDEBUG[0m]: [client.(*QQClient).netLoop] rev pkt: trpc.msg.olpush.OlPushService.MsgPush seq: -1567316376
+[2025-10-06 22:25:45] [[34mDEBUG[0m]: [client.(*QQClient).netLoop.func2] Unhandled Command: StatSvc.SvcReqMSFLoginNotify
+Seq: 3858978013
+This message can be ignored.
+[2025-10-06 22:25:45] [[34mDEBUG[0m]: [client.decodeOlPushServicePacket] unknown subtype 349 of type 0x210, proto data: 08e90710ce939b80021887820420022a5f08e9071096859b800218828e0520012a114c616772616e67652d43344430333842343220e447a5e2fb4e057e25053b03d95aedc844fa8e181d08ad0d4ee8edf0f17baa42380140cfacf8fa054a0e636f6d2e74656e63656e742e71715887083803406d
+[2025-10-06 22:25:49] [[32mINFO[0m]: Lgr -> 停止Pixiv任务
+[2025-10-06 22:25:49] [[32mINFO[0m]: Lgr -> 停止Login任务
+[2025-10-06 22:25:49] [[32mINFO[0m]: Lgr -> Pixiv定时任务已停止
+[2025-10-06 22:25:49] [[32mINFO[0m]: Lgr -> 停止DB任务
+[2025-10-06 22:25:49] [[32mINFO[0m]: 签名文件保存成功
+[2025-10-06 22:26:12] [[32mINFO[0m]: 签名文件加载成功
+[2025-10-06 22:26:12] [[32mINFO[0m]: Lgr -> 预加载LLM
+[2025-10-06 22:26:12] [[32mINFO[0m]: Lgr -> 预加载login
+[2025-10-06 22:26:12] [[32mINFO[0m]: Lgr -> Login定时任务已启动
+[2025-10-06 22:26:12] [[32mINFO[0m]: Lgr -> 预加载check_session
+[2025-10-06 22:26:12] [[32mINFO[0m]: Lgr -> 预加载DB
+[2025-10-06 22:26:12] [[32mINFO[0m]: 尝试使用 快速登录 登录
+[2025-10-06 22:26:12] [[32mINFO[0m]: connect to server: 198.18.0.89:8080
+[2025-10-06 22:26:12] [[34mDEBUG[0m]: [client.(*QQClient).netLoop] rev pkt: trpc.qq_new_tech.status_svc.StatusService.Register seq: 8
+[2025-10-06 22:26:12] [[32mINFO[0m]: 使用 快速登录 登录成功
+[2025-10-06 22:26:12] [[32mINFO[0m]: 连接已建立
+[2025-10-06 22:26:12] [[32mINFO[0m]: 自定义逻辑注册完成
+[2025-10-06 22:26:14] [[34mDEBUG[0m]: [client.(*QQClient).netLoop] rev pkt: ConfigPushSvc.PushReq seq: -1526671001
+[2025-10-06 22:26:14] [[34mDEBUG[0m]: [client.(*QQClient).netLoop.func2] Unhandled Command: ConfigPushSvc.PushReq
+Seq: 2768296295
+This message can be ignored.
+[2025-10-06 22:26:42] [[34mDEBUG[0m]: 发送心跳包
+[2025-10-06 22:27:12] [[34mDEBUG[0m]: 发送心跳包
+[2025-10-06 22:27:42] [[34mDEBUG[0m]: 发送心跳包
+[2025-10-06 22:28:12] [[34mDEBUG[0m]: 发送心跳包
+[2025-10-06 22:28:42] [[34mDEBUG[0m]: 发送心跳包
+[2025-10-06 22:29:12] [[34mDEBUG[0m]: 发送心跳包
+[2025-10-06 22:29:42] [[34mDEBUG[0m]: 发送心跳包
+[2025-10-06 22:30:12] [[34mDEBUG[0m]: 发送心跳包
+[2025-10-06 22:30:42] [[34mDEBUG[0m]: 发送心跳包
+[2025-10-06 22:30:42] [[34mDEBUG[0m]: [client.(*QQClient).netLoop] rev pkt: trpc.qq_new_tech.status_svc.StatusService.SsoHeartBeat seq: 9
+[2025-10-06 22:30:42] [[34mDEBUG[0m]: [client.(*QQClient).doHeartbeat] heartbeat 47ms to server

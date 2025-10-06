@@ -1,0 +1,24 @@
+[bot]
+# 账号 必填
+account = 3673183248
+# 密码 选填
+# password = "pwd"
+# SignServer 必填
+signServer = "https://sign.lagrangecore.org/api/sign/39038"
+# 缓存文件目录 必填
+cachePath = "data"
+# 文本 LLM 配置
+[LLM.Text]
+baseURL = "https://api.jisuai.top/v1"
+APIKey = "sk-nvAxYGpdfH5M0Flqn6DnTEBpk4kdxXlL9AVDmGH5E3GOZWtQ"
+model = "gpt-5-mini-2025-08-07"
+# 选择 LLM 配置
+[LLM.Choice]
+baseURL = "https://api.jisuai.top/v1"
+APIKey = "sk-nvAxYGpdfH5M0Flqn6DnTEBpk4kdxXlL9AVDmGH5E3GOZWtQ"
+model = "gpt-4.1-nano-2025-04-14"
+# 多模态 LLM 配置
+[LLM.Dynamic]
+baseURL = "https://api.jisuai.top/v1"
+APIKey = "sk-nvAxYGpdfH5M0Flqn6DnTEBpk4kdxXlL9AVDmGH5E3GOZWtQ"
+model = "gpt-5-chat-latest"
