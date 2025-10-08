@@ -125,10 +125,10 @@ func QrLogin(ctx *event.MessageContext) (string, error) {
 			if state == "0" {
 				utils.Trace("等待中")
 			} else if state == "1" {
-				utils.Info("二维码请求成功")
+				utils.Info("请求成功")
 				break
 			} else if state == "2" {
-				utils.Trace("请求成果")
+				utils.Trace("已扫描二维码")
 			} else if state == "3" {
 				utils.Info("二维码已失效")
 				return session, errors.New("二维码已失效，登录失败")

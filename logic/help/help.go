@@ -17,5 +17,6 @@ func Help(ctx *event.MessageContext) {
 	/login - 登录
 	/logout - 登出
 	/download - 下载课程文件
-	/search - 搜索所有文件根据关键词`)})
+	/search - 搜索所有文件根据关键词
+	本项目仓库 https://github.com/vintcessun/XMU-CM-Bot`)})
 }

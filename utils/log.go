@@ -43,7 +43,7 @@ type LogConfig struct {
 // DefaultLogConfig 默认日志配置
 func DefaultLogConfig() *LogConfig {
 	return &LogConfig{
-		Level:       DebugLevel,
+		Level:       InfoLevel,
 		EnableFile:  true,
 		EnableColor: true,
 		LogDir:      "logs",
